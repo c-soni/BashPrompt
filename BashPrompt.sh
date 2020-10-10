@@ -28,9 +28,7 @@ get_branch() {
 # export PS1="🎅\[\e[33;41m\][\[\e[m\]\[\e[32m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[34m\]\h\[\e[m\]\[\e[33;41m\]]\[\e[m\]🎄 "
 
 # [username] [cwd] (git_branch)
-export PS1="$Green[\u@\h]$ColorEnd $Red[\W]$ColorEnd$Cyan\$(get_branch)$ColorEnd \$ "
+export PS1="$Green[\u@\h]$ColorEnd $Red[\w]$ColorEnd$Cyan\$(get_branch)$ColorEnd \$ "
 
 # Verbose
 # export PS1="$Green[\D{%d/%m/%y}-\t]$ColorEnd $Cyan[\u∫\W]$ColorEnd$Red\$(get_branch)$ColorEnd ⌘ "
-export PATH=/usr/local/cuda-11.1/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-11.1/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
