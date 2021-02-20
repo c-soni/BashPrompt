@@ -1,3 +1,4 @@
+
 # Should always be placed before the conda shell hook.
 # Fancy unicode symbols:
 # ¦‡🎅🎄⁛∠∡∢∣∧∨∩∪∫∬∭∮∯⋮⌘〈〉♢♦♠
@@ -29,7 +30,6 @@ get_branch() {
 
 # [username] [cwd] (git_branch)
 export PS1="$Green[\u@\h]$ColorEnd $Red[\w]$ColorEnd$Cyan\$(get_branch)$ColorEnd \$ "
-echo $PS1
 
 # Verbose
 # export PS1="$Green[\D{%d/%m/%y}-\t]$ColorEnd $Cyan[\u∫\W]$ColorEnd$Red\$(get_branch)$ColorEnd ⌘ "
