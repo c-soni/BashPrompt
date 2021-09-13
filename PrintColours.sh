@@ -1,5 +1,26 @@
 #!/bin/sh
 
+# Colours based on Atom's OneDark Pro colour theme:
+# background        : #282c34
+# ansiBlack         : #3f4451
+# ansiRed           : #e05561
+# ansiGreen         : #8cc265
+# ansiYellow        : #d18f52
+# ansiBlue          : #4aa5f0
+# ansiMagenta       : #c162de
+# ansiCyan          : #42b3c2
+# ansiWhite         : #e6e6e6
+# border            : #abb2bf
+# ansiBrightBlack   : #4f5666
+# ansiBrightRed     : #ff616e
+# ansiBrightGreen   : #a5e075
+# ansiBrightYellow  : #f0a45d
+# ansiBrightBlue    : #4dc4ff
+# ansiBrightMagenta : #de73ff
+# ansiBrightCyan    : #4cd1e0
+# ansiBrightWhite   : #d7dae0
+# foreground        : #abb2bf
+
 # Colors management:
 Black="\e[0;30m"   # $Black
 Red="\e[0;31m"     # $Red
